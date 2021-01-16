@@ -1,0 +1,26 @@
+ class Test {
+
+	
+	Test(String Name,int Price) {
+		System.out.println(Name+Price);
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println("名称"+"价格");
+		
+		Test   blood = new Test ("血瓶", 50);
+		
+		
+		
+		Test  shoes = new Test ("草鞋", 300);
+		
+		
+		
+		Test  sword = new Test ("长剑", 350);
+		
+	
+		
+	}
+
+}
